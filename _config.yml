@@ -1,0 +1,21 @@
+# Site settings
+title: From Building Houses to Building Applications
+header-img: img/home-bg.png
+email: stevenmccombe@hotmail.co.uk
+copyright_name: StevenMcCombe
+description: > # this means to ignore newlines until "baseurl:"
+  Swapping the hammer for a keyboard
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  StevenMcCombe
+learn_profile: StevenMcCombe
+email_username: stevenmccombe@hotmail.co.uk
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
